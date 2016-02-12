@@ -1,0 +1,11 @@
+warriors of the net youtube
+
+QUESTIONS:
+What exactly is the difference between python and django?
+
+IN COMMAND PROMT
+installing the third install Git option lets you look at the folders/directory by using the command "ls" (list)
+
+"pwd" (print working directory): tells you the current folder/directory you are working in
+
+

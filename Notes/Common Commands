@@ -1,0 +1,13 @@
+Common Commands
+
+To get into djangogirls
+cd djangogirls
+
+To open a virtual environment 
+.\myvenv\Scripts\activate.bat
+
+To activate server
+C:\Users\Laura\djangogirls> python manage.py runserver
+
+TO EXIT THE SERVER and get back to the Command line
+Ctrl + C

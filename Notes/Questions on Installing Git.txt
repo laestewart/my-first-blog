@@ -1,0 +1,16 @@
+You can download Git from git-scm.com. You can hit "next next next" on all steps except for one; in the 5th step entitled "Adjusting your PATH environment", choose "Run Git and associated Unix tools from the Windows command-line" (the bottom option). Other than that, the defaults are fine. Checkout Windows-style, commit Unix-style line endings is good.
+
+QUESTION: Use Git and ioptional Unix tools from the Windows Command Prompt
+Both Git and the optional Unix tools will be added to your PATH
+Warning: This option will override Windows tools like "find" and "sort". Only use this option if you understand the implications.
+
+Configuring the terminal emulator to use with Git Bash
+Which terminal emulator do you want to use with your Git Bash
+-Use MinTTTY (the default terminal of MSys2): Git Bash will use MinTYY as terminal emulator, which sports a resizeable window, non-rectangular selections and a Unicode font. Windows console programs (such as interactive Python) must be launched via "winpty: to work in MinTYY
+
+-Use Windows' default console window: Git will use the default console window of Windows ("cmd.exe"), which works well with Win32 console programs such as interactive Python or nose.js, but has a very limited default scroll-back, needs to be configured to use a Unicode font in order to display non-ASCII characters correctly, and prior to Windows 10 its wondow was not freely resizavle and i only allowed rectangular text selections
+
+Configuring experiemntal performance tweaks
+Which experimental performance tweaks would you like to enable?
+Enable file system caching
+I didn't select this

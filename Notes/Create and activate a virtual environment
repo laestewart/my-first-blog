@@ -1,0 +1,6 @@
+After you create a new virtual environment, you have to activate it to start working in it
+(It doesn't work to just open the directory/folder)
+
+.\myvenv\Scripts\activate.bay
+Or .\myvenv\s tab\a tab
+

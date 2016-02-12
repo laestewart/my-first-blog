@@ -1,0 +1,107 @@
+Saturday Notes
+
+QUESTIONS:
+What exactly is the difference between python and django?
+
+IN COMMAND PROMT
+installing the third install Git option lets you look at the folders/directory by using the command "ls" 
+
+(list)
+
+"pwd" (print working directory): tells you the current folder/directory you are working in
+
+Just looking shit up is totally cool. It takes doing it a bunch of times to be able to remember certain things that you might use a lot.
+
+
+WHAT IS PYTHON
+Python is the language we are working in, like English (or other programming languages)
+
+Strings are like phrases/sentences that that the computer can read/understand
+Strings should always start and end with the same character, like "" or ''. This lets the computer know that everything inside of it is a single string (like a captial and a period in a sentence)
+
+In Python, there isn't a difference between a method and a function
+
+In Python, there are two types of methods
+One is one you have built in methods that you can use (they are the ones at the beginning). In other languages all the methods come after the string with the .upper<>
+
+Integers/numbers can't have their length determined because it's just a value. You wouldn't say "how long is 64" or "what is the length of 64" We have to confine/create the integer to a string that we can apply a method to it.
+Integers can be converted into text, but we can't necessarily convert text into numbers - what would int('hello') be anyway?
+
+You can create variables that are like shortcuts so you don't have to keep telling it the same thing over and over again (like your name)
+Once you create a variable, you can use it in strings/apply methods or functions as a shortcut
+Create a variable with the >>> name of the variable = "the string"
+
+You can also create Lists. Lists are a combination of objects that you can assign to variables
+
+Both strings and lists can have built in functions applied to them, like len (length)
+
+You can figure out where an object is in your list by using the name of the variable and including the place where the object is in the variable
+
+Dictionaries
+You can set up definitions (called values) for  keys (words). So you can use the key and it will tell you what the definition/value is for whatever you set it as.
+You can set lists as values (like a list of intergers or words) by putting them inside [] after the name of the key
+It doesn't matter what order the keys/values are in the dictionary (which is why you can't sort it). All you need to know is the correct key and it will pull the assigned value
+
+When should you use a list and or a variable?
+Use a list if you need an ordered sequence of items
+Use a dictionary  is you want to efficently look up values(definitions) for keys(assigned words) later on
+
+Both dictionaries and lists are mutable (they canbe changed/edited after they are created)
+
+
+As long as you know what is possible to be achieved in a certain language, you can look up the specific way to write that in the language you want
+
+When you create a dictionary you can use the 'key name':'value',
+But if you want to edit anything, you need to use the "function" dictionary name['value']
+
+
+Comparing Things
+Python does math for you, including the results of when apply methods to numbers
+Using two == signs is how we check to see if two things we are comparing are equal to each other.
+Single = is for assigning values (setting) to variables
+
+and - if you use the and operator, both comparisons have to be True in order for the whole command to be True
+or - if you use the or operator, only one of the comparisons has to be True in order for the whole command to be True
+
+Boolean objects
+There are only 2: True and False
+Booleans can be set as variables too
+>>> a = True
+>>> a
+True
+
+
+In Sublime
+Yellow shows strings, Red shows functions
+
+You can create/write your own functions like len(), which is the function that determines length
+Function is a sequence of instructions that Python should execute
+Each Python function starts with the keyword def, then a name and then can have some parameters
+In the name of your def, put the word that you give your arguements to (like 'name')
+
+After you create a function, you have to make sure to give it an arguement to check
+Create your function with def name of function
+After your function is created, you have to tell it to run at the bottom, with the name of the function, then in para you put in the arguement you want the function to test
+Ex hi("Ola")
+
+
+Loops
+You can create lists of things, then you can tell the program to run the definition that you created and put in each object in the list as parameters
+def hi(name):
+    print('Hi ' + name + '!')
+
+girls = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'You']
+for name in girls:
+    hi(name)
+    print('Next girl')
+
+You created a definition called hi, then added the non-defined parameter of name, then told it for every name to print Hi and ! with it
+Then you create a list of all the things/parameters you want it to run through the definition that you created (name)
+So you're telling is to take your list 'girls', then run them all through your def(name)
+Finish it with a print('Next girl'), which adds in that line in between it running the next object in the list of 'girls'
+
+You can also use for on numbers with the range function
+for i in range(1,6):
+	print(i)
+It's going to print all the numbers in that range that you give it
+(Something about it being open-ended, so it doesn't include the second number)

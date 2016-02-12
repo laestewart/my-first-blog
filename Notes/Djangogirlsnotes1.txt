@@ -1,0 +1,60 @@
+Moving up a folder level cd .. 
+
+C:\Users\Laura> type "dir" to open a list of directories/folders
+
+"mkdir" (make directory) + name of directory/folder you want to make
+
+"cd" (change directory) opens the directory/folder that you want to work in
+
+You can jump from directories/folders from each other without exiting to the main "Laura"/user directory 
+
+"program" + "--help" 
+*program is something like python, I think? Not django?
+
+python comes with different options
+
+"-m" tells python that we want to run an option 
+
+
+-m" + "venv" + "name of new virtual environment you want to create"
+Creates a new envionment but doesn't put you into it automatically
+
+
+Tab + first letter will complete the folder name (as long as it's the only thing that starts with that letter inside that directory)
+
+
+
+pip is a package management system
+
+django is just one possible opensource packages that you can grab from online respositories 
+Default repository for Python is PyPI
+
+pip only works with Python
+
+pip install "name of program"
+
+the == defines a specific version of the package
+
+package is directory of source code
+
+
+django is code, mostly not with executable programs
+
+
+QUESTION: Is there a way to tell when you are inside a virtual environment/which one
+
+
+
+Ex: pip install django==1.9
+
+To open a virtual environment 
+.\myvenv\Scripts\activate.bat
+You can run it again if you want to double check that you are inside a virtual environment/the right one
+
+
+You can save related shit (like these notes) inside the Djangogirls directory/folder and it's not going to fuck shit up
+
+
+
+
+

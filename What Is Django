@@ -1,0 +1,8 @@
+Django (/ˈdʒæŋɡoʊ/ jang-goh) is a free and open source web application framework, written in Python. A web framework is a set of components that helps you to develop websites faster and easier.
+
+What happens when someone requests a website from your server?
+It takes the webpage address/url and tries to figure out which view (function) it should go to. 
+The part of Django that does this is called urlresolver
+Once the view recieves a request, it processes the input data through the function you have associated with that view, then generates/outputs a response and sends it back to the user's web browser
+
+Like a restaurant serve. It takes your request/order, then figures out who to take it to the correct cook (like soup chef, baker, barista, etc), then it sends back the finished product/food/data.

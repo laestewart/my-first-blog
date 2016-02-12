@@ -1,0 +1,51 @@
+Django Models
+
+Objects
+There is a concept in programming called Object-oriented programming
+The idea is that instead of writing everything as a boring sequence of programming instructions we can model things and define how they interact with each other.
+So what is an object? It is a collection of properties and actions.
+So basically the idea is to describe real things in code with properties (called object properties) and actions (called methods).
+
+Objects contain both properties (called objects properties) and actions (called methods)
+
+Post
+--------
+title
+text
+author
+created_date
+published_date
+publish
+
+Knowing what an object is, we can create a Django model for our blog post. A model in Django is a special kind of object that's saved in the database. Model = group of properties and actions
+
+
+CREATING AN APPLICATION
+Create a seperate application to keep things tiday
+You can run the built-in Django software with python manage.py startapp blog
+Creates a new blog directory/folder and contains a bunch of files
+Now that we've created the application, we need to tell Django to actually use it
+mysite/settings.py
+
+
+Creating a blog post model
+
+All lines starting with from or import are lines that add some bits from other files. So instead of copying and pasting the same things in every file, we can include some parts with from ... import ...
+
+class Post(models.Model): - this line defines our model (it is an object).
+
+class Post(models.Model): - this line defines our model (it is an object).
+
+class is a special keyword that indicates that we are defining an object.
+Post is the name of our model. We can give it a different name (but we must avoid special characters and whitespaces). Always start a class name with an uppercase letter.
+models.Model means that the Post is a Django Model, so Django knows that it should be saved in the database.
+
+First we need to let Django know that you've made changes or created a new model
+python manage.py makemigrations blog
+This is going to tell Django to go look at anything with models.Model and create a migration file
+The migration file is the thing that you can tell it to grab in order to translate it into a table that's saved on the database
+
+
+Once you've created your Model (an object/a group of commands), you need to translate it into a table that is readable outside of Django. 
+python manage.py migrate blog
+Now your Post model is in your Sqlite3 database

@@ -1,0 +1,34 @@
+Questions
+
+Which console should I use?
+Depends on your OS
+Windows: if you're using the local console (aka making changes directly to your computer) it has one >
+Python has >>> You can use this in Powershell 
+Allows you to work in virtual environments?
+What else does Python and the >>> mean?
+
+What's the difference between a website and a web app?
+A website is more passive, rather than interactive
+Ex: Youtube when you are just viewing a video, but it's an app when you are uploading 
+A banking website is more of a web app
+
+Is it better to start over fully or to roll back to the last known version that works?
+A: How long you have spent working. 
+Try to roll-back, cause it can help you learn
+
+What's the difference between Git and GitHub
+Git is the actual software that manages version control
+GitHub is a website that lets you store code
+
+Build a blog that's a little personal and a little general? A link to your GitHub, twitter, info. Also actual blog content about your experiences, questions
+
+RESOURCES
+Oregon resident: you can get a free sub to treehouse.com at
+CodeOregon.org
+CodeAcademy: more reading, less videos. Only for Python2, so whatever
+CodeSchool.com
+MeetUp.com
+Book: Python Programming: An Introduction to Computer Science
+
+Two Scoops of Django: not a tutorial
+PyLadies

@@ -1,0 +1,7 @@
+Django Admin
+
+Remember to >>>run python manage.py runserver in the console to run the web server. 
+C:\Users\Laura\djangogirls> run python manage.py
+
+TO EXIT THE SERVER and get back to the Command line
+Ctrl + C

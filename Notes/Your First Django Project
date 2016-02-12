@@ -1,0 +1,31 @@
+Your First Django Project
+
+C:\Users\Name\djangogirls> django-admin startproject mysite .
+django-admin.py is a script that will create the directories and files for you. 
+
+manage.py is a script that helps with management of the site. With it we will be able to start a web server on our computer without installing anything else, amongst other things.
+The settings.py file contains the configuration of your website.
+Remember when we talked about a mail carrier checking where to deliver a letter? urls.py file contains a list of patterns used by urlresolver.
+
+
+Changing settings
+
+Setup a database
+
+There's a lot of different database software that can store data for your site. We'll use the default one, sqlite3.
+
+This is already set up in this part of your mysite/settings.py file:
+
+Sqlite is just one kind of database software. It's better for smaller sites, but others are like Oracle or Mysql
+
+With Django you can change/replace your database. Depends on how much you need. 
+
+Django comes with the software to create a sqlite3, but the migrate is what actually creates the database
+
+"A database is a collection of data. This is a place in which you will store information about users, your blog posts, etc. We will be using a SQLite database to store our data. This is the default Django database adapter -- it'll be enough for us right now.""
+
+Your website can have lots of different applications, like a blog app or a contact/form app. 
+Almost all websites are a single application. Facebook or Google are things that have multiple applications (like Google Docs and Gmail)
+
+
+The web server will take over your command prompt until you stop it. To type more commands whilst it is running open a new terminal window and activate your virtualenv. To stop the web server, switch back to the window in which it's running and pressing CTRL+C - Control and C buttons together 
